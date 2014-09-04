@@ -175,8 +175,6 @@
 		54BD2E7D16B06C480099FB02 /* gvsuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BD2E7C16B06C480099FB02 /* gvsuAppDelegate.m */; };
 		54C29550171382CC00490AE7 /* gvsuAppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 54C2954F171382C700490AE7 /* gvsuAppDelegate.h */; };
 		54D3EDC91728A94400E863DE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D3EDC81728A94400E863DE /* MainStoryboard_iPhone.storyboard */; };
-		54D3EDCB1728AA9D00E863DE /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D3EDCA1728AA9D00E863DE /* GoogleMaps.framework */; };
-		54D3EDCD1728AABC00E863DE /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54D3EDCC1728AABC00E863DE /* GoogleMaps.bundle */; };
 		54D8557F1713A9DE00AACF76 /* Senior Project Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */; };
 		54D8558C1713B23A00AACF76 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */; };
 		54D8558D1713B23A00AACF76 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D8558B1713B23A00AACF76 /* HomeScreenViewController.xib */; };
@@ -189,6 +187,8 @@
 		54D855A61713D26F00AACF76 /* ClosestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D855A41713D26F00AACF76 /* ClosestDetailViewController.m */; };
 		54D855A71713D26F00AACF76 /* ClosestDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855A51713D26F00AACF76 /* ClosestDetailViewController.xib */; };
 		54D855BC17141AD700AACF76 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D855BB17141AD700AACF76 /* TableViewCell.xib */; };
+		9E9B0A9B19B8C50C002350C3 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9B0A9A19B8C50C002350C3 /* GoogleMaps.framework */; };
+		9E9B0A9D19B8C542002350C3 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E9B0A9C19B8C542002350C3 /* GoogleMaps.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -368,8 +368,6 @@
 		54C2954E171382C700490AE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/gvsuAppDelegate.h; sourceTree = "<group>"; };
 		54C862D0171392DB0086E97C /* Philanthropy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Philanthropy-Prefix.pch"; sourceTree = "<group>"; };
 		54D3EDC81728A94400E863DE /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPhone.storyboard; path = ../MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		54D3EDCA1728AA9D00E863DE /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
-		54D3EDCC1728AABC00E863DE /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		54D8557E1713A9DE00AACF76 /* Senior Project Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Senior Project Data.plist"; sourceTree = "<group>"; };
 		54D855891713B23A00AACF76 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
 		54D8558A1713B23A00AACF76 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
@@ -389,6 +387,8 @@
 		54D855B917141ABF00AACF76 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		54D855BA17141ABF00AACF76 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		54D855BB17141AD700AACF76 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		9E9B0A9A19B8C50C002350C3 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		9E9B0A9C19B8C542002350C3 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +402,7 @@
 				5432BBAA16FAD7A20014AB2B /* QuartzCore.framework in Frameworks */,
 				5432BBA816FAD7980014AB2B /* OpenGLES.framework in Frameworks */,
 				5432BBA616FAD7900014AB2B /* libz.dylib in Frameworks */,
+				9E9B0A9B19B8C50C002350C3 /* GoogleMaps.framework in Frameworks */,
 				5432BBA416FAD7850014AB2B /* libstdc++.dylib in Frameworks */,
 				5432BBA216FAD77A0014AB2B /* libicucore.dylib in Frameworks */,
 				5432BBA016FAD7620014AB2B /* ImageIO.framework in Frameworks */,
@@ -413,7 +414,6 @@
 				54600BA216DC6475004AFA84 /* MapKit.framework in Frameworks */,
 				54BD2E6F16B06C470099FB02 /* Foundation.framework in Frameworks */,
 				54BD2E7116B06C470099FB02 /* CoreGraphics.framework in Frameworks */,
-				54D3EDCB1728AA9D00E863DE /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,8 +612,8 @@
 		54BD2E6B16B06C470099FB02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54D3EDCC1728AABC00E863DE /* GoogleMaps.bundle */,
-				54D3EDCA1728AA9D00E863DE /* GoogleMaps.framework */,
+				9E9B0A9C19B8C542002350C3 /* GoogleMaps.bundle */,
+				9E9B0A9A19B8C50C002350C3 /* GoogleMaps.framework */,
 				544195A3171BAB4A005575D7 /* libc++.dylib */,
 				5432BBAB16FAD7AE0014AB2B /* SystemConfiguration.framework */,
 				5432BBA916FAD7A20014AB2B /* QuartzCore.framework */,
@@ -824,6 +824,7 @@
 				5441944C171B86A8005575D7 /* Henry, Paul.png in Resources */,
 				5441944D171B86A8005575D7 /* Hills, Art.png in Resources */,
 				5441944E171B86A8005575D7 /* Hoobler, Icie Macy.png in Resources */,
+				9E9B0A9D19B8C542002350C3 /* GoogleMaps.bundle in Resources */,
 				5441944F171B86A8005575D7 /* Johnson, Paul A.png in Resources */,
 				54419450171B86A8005575D7 /* Keller, Fred.png in Resources */,
 				54419451171B86A8005575D7 /* Kelly, Brian and Paqui.png in Resources */,
@@ -957,7 +958,6 @@
 				544195AE171BB306005575D7 /* MapViewController.xib in Resources */,
 				54B2C2C7172332CB00D11692 /* lubbers.png in Resources */,
 				54D3EDC91728A94400E863DE /* MainStoryboard_iPhone.storyboard in Resources */,
-				54D3EDCD1728AABC00E863DE /* GoogleMaps.bundle in Resources */,
 				5461DDA9172DB4F70022C128 /* gvsuAboutUsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1078,14 +1078,16 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nickolas Workman (B2ETJ6H3GC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2\"",
 					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2/GoogleMapsSDKDemos\"",
 					"\"$(SRCROOT)/Philanthropy/GoogleMaps-iOS-1.2.0\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Philanthropy/Philanthropy-Prefix.pch";
 				INFOPLIST_FILE = "Philanthropy/Philanthropy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1102,14 +1104,16 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nickolas Workman (B2ETJ6H3GC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2\"",
 					"\"$(SRCROOT)/GoogleMaps-iOS-1.1.2/GoogleMapsSDKDemos\"",
 					"\"$(SRCROOT)/Philanthropy/GoogleMaps-iOS-1.2.0\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Philanthropy/Philanthropy-Prefix.pch";
 				INFOPLIST_FILE = "Philanthropy/Philanthropy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

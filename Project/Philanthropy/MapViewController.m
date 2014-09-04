@@ -12,7 +12,7 @@
 
 @implementation MapViewController{
     GMSMapView *mapView;
-    id<GMSMarker> marker;
+    GMSMarker *marker;
 }
 NSArray *data;
 
@@ -60,8 +60,8 @@ NSArray *data;
     NSInteger count = [data count];
     NSLog(@"%@", data);
     
-    GMSMarkerOptions *locations = [[GMSMarkerOptions alloc] init];
-    
+    //GMSMarkerOptions *locations = [[GMSMarkerOptions alloc] init];
+    GMSMarker *locations = [[GMSMarker alloc] init];
     for(int i = 0; i < count; i++)
     {
         NSString *full_coords = [[data objectAtIndex:i]objectForKey:@"GPS Coordinates"];
@@ -73,7 +73,8 @@ NSArray *data;
             NSString *y = deliminated_coords[1];
             locations.position = CLLocationCoordinate2DMake([x doubleValue], [y doubleValue]);
             locations.title = [[data objectAtIndex:i]objectForKey:@"Building Name"];
-            [mapView addMarkerWithOptions:locations];
+            //[mapView addMarkerWithOptions:locations];
+            locations.map = mapView;
         }
     }
 }
@@ -82,7 +83,7 @@ NSArray *data;
 
 
 
-- (BOOL)mapView:(GMSMapView *)mapView didTapMarker:(id<GMSMarker>)marker {
+- (BOOL)mapView:(GMSMapView *)mapView didTapMarker:(GMSMarker *)marker {
     NSString *title = marker.title;
     if (title != nil) {
         //NSLog(@"%@", title);
@@ -91,7 +92,7 @@ NSArray *data;
 }
 
 -(void)mapView:(GMSMapView *)mapView
-didTapInfoWindowOfMarker:(id<GMSMarker>)marker
+didTapInfoWindowOfMarker:(GMSMarker *)marker
 {
     NSString* title = marker.title;
     for (NSDictionary *building in data)

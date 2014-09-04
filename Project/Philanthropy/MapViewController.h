@@ -15,7 +15,7 @@
 
 - (IBAction)getLocation;
 //- (IBAction)setMap:(id)sender;
--(BOOL)mapView:(GMSMapView *)mapView didTapMarker:(id<GMSMarker>)marker;
--(void)mapView:(GMSMapView *)mapView didTapInfoWindowOfMarker:(id<GMSMarker>)marker;
+-(BOOL)mapView:(GMSMapView *)mapView didTapMarker:(GMSMarker *)marker;
+-(void)mapView:(GMSMapView *)mapView didTapInfoWindowOfMarker:(GMSMarker *)marker;
 //- (UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(id<GMSMarker>)marker;
 @end
